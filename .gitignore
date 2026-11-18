@@ -1,0 +1,9 @@
+node_modules/
+audit/
+playwright-report/
+test-results/
+.netlify/
+.idea/
+.env
+.env.*
+*.log

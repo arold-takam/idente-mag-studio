@@ -1,0 +1,14 @@
+{
+  "name": "idente-mag-studio",
+  "private": true,
+  "version": "4.3.0",
+  "description": "Studio éditorial autonome FR/EN/PT : composition de magazines A4, aperçu, sauvegarde locale et export PDF.",
+  "scripts": {
+    "test": "node tests/studio.cjs",
+    "check": "node scripts/check.cjs",
+    "test:ci": "HEADLESS=1 node tests/studio.cjs"
+  },
+  "devDependencies": {
+    "playwright": "1.63.0"
+  }
+}
